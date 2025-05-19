@@ -6,7 +6,7 @@ import { FaMagnifyingGlass } from "react-icons/fa6";
 const Hero = () => {
   return (
     <div
-      className="hero mx-auto flex flex-col justify-between relative"
+      className="hero mx-auto flex flex-col justify-between relative mt-5"
       style={{
         height: "660px",
         width: "1400px",
@@ -15,14 +15,13 @@ const Hero = () => {
         backgroundPosition: "center",
         borderRadius: "32px",
         padding: "40px",
-      }}
-    >
+      }}>
       {/* Top Content */}
       <div className="pt-20">
         <p className="text-white text-xl text-center mb-4">
           The World's Largest Used Car Dealership
         </p>
-        <h1 className="text-white font-bold text-5xl text-center">
+        <h1 className="text-white font-extrabold text-5xl text-center">
           Find Your Perfect Vehicle Online
         </h1>
       </div>
@@ -32,15 +31,13 @@ const Hero = () => {
           <div className="dropdown bg-black">
             <label
               tabIndex={0}
-              className="btn m-1 text-white border-r border-white bg-black hover:bg-gray-800 whitespace-nowrap"
-            >
+              className="btn m-1 text-white border-r border-white bg-black hover:bg-gray-800 whitespace-nowrap">
               <span className="mr-2">Used Cars</span>
               <IoMdArrowDropdown className="inline" />
             </label>
             <ul
               tabIndex={0}
-              className="dropdown-content z-[1] menu p-2 shadow rounded-box w-52 text-white bg-[#0a1a2f] border-r border-white"
-            >
+              className="dropdown-content z-[1] menu p-2 shadow rounded-box w-52 text-white bg-[#0a1a2f] border-r border-white">
               <li>
                 <a>New</a>
               </li>
@@ -52,15 +49,13 @@ const Hero = () => {
           <div className="dropdown bg-black">
             <label
               tabIndex={0}
-              className="btn m-1 text-white border-r border-white bg-black hover:bg-gray-800 whitespace-nowrap"
-            >
+              className="btn m-1 text-white border-r border-white bg-black hover:bg-gray-800 whitespace-nowrap">
               <span className="mr-2">Any Makes</span>
               <IoMdArrowDropdown className="inline" />
             </label>
             <ul
               tabIndex={0}
-              className="dropdown-content z-[1] menu p-2 shadow rounded-box w-52 text-white bg-[#0a1a2f] border-r border-white"
-            >
+              className="dropdown-content z-[1] menu p-2 shadow rounded-box w-52 text-white bg-[#0a1a2f] border-r border-white">
               <li>
                 <a>Audi</a>
               </li>
@@ -81,15 +76,13 @@ const Hero = () => {
           <div className="dropdown bg-black">
             <label
               tabIndex={0}
-              className="btn m-1 text-white border-r border-white bg-black hover:bg-gray-800 whitespace-nowrap"
-            >
+              className="btn m-1 text-white border-r border-white bg-black hover:bg-gray-800 whitespace-nowrap">
               <span className="mr-2">Any Model</span>
               <IoMdArrowDropdown className="inline" />
             </label>
             <ul
               tabIndex={0}
-              className="dropdown-content z-[1] menu p-2 shadow rounded-box w-52 text-white bg-[#0a1a2f] border-r border-white"
-            >
+              className="dropdown-content z-[1] menu p-2 shadow rounded-box w-52 text-white bg-[#0a1a2f] border-r border-white">
               <li>
                 <a>2012</a>
               </li>
@@ -110,15 +103,13 @@ const Hero = () => {
           <div className="dropdown bg-black">
             <label
               tabIndex={0}
-              className="btn m-1 text-white border-r border-white bg-black hover:bg-gray-800 whitespace-nowrap"
-            >
+              className="btn m-1 text-white border-r border-white bg-black hover:bg-gray-800 whitespace-nowrap">
               <span className="mr-2">Price: All prices</span>
               <IoMdArrowDropdown className="inline" />
             </label>
             <ul
               tabIndex={0}
-              className="dropdown-content z-[1] menu p-2 shadow rounded-box w-52 text-white bg-[#0a1a2f] border-r border-white"
-            >
+              className="dropdown-content z-[1] menu p-2 shadow rounded-box w-52 text-white bg-[#0a1a2f] border-r border-white">
               <li>
                 <a>All prices</a>
               </li>
@@ -139,8 +130,7 @@ const Hero = () => {
           <div className="dropdown bg-black">
             <label
               tabIndex={0}
-              className="btn m-1 text-white border-r border-white bg-black hover:bg-gray-800 whitespace-nowrap"
-            >
+              className="btn m-1 text-white border-r border-white bg-black hover:bg-gray-800 whitespace-nowrap">
               <span className="mr-2">Search</span>
               <FaMagnifyingGlass className="inline" />
             </label>

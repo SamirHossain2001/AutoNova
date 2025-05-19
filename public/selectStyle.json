@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Sedan",
+    "image": "https://i.ibb.co/hFjt0dX6/sm-car-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Coupe",
+    "image": "https://i.ibb.co/d4TrSTF0/sm-car-2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "SUV",
+    "image": "https://i.ibb.co/4gMfxFp3/sm-car-3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Truck",
+    "image": "https://i.ibb.co/rKdtTvf5/sm-car-4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Hatchback",
+    "image": "https://i.ibb.co/C3Cwwjz1/sm-car-5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Convertible",
+    "image": "https://i.ibb.co/qLQRJ6c5/sm-car-6.jpg"
+  }
+]

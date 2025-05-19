@@ -35,8 +35,7 @@ const NavBar = () => {
       <div ref={dropdownRef} className="relative inline-block mr-3">
         <button
           onClick={() => setDropdownOpen((prev) => !prev)}
-          className="mr-3 flex items-center hover:text-blue-600"
-        >
+          className="mr-3 flex items-center hover:text-blue-600">
           Pages <IoMdArrowDropdown />
         </button>
         {dropdownOpen && (
@@ -44,38 +43,34 @@ const NavBar = () => {
             <NavLink
               to="/pages/shop"
               className="block px-4 py-2 hover:bg-gray-100 hover:text-blue-600"
-              onClick={() => setDropdownOpen(false)}
-            >
+              onClick={() => setDropdownOpen(false)}>
               Shop
             </NavLink>
             <NavLink
               to="/pages/faq"
               className="block px-4 py-2 hover:bg-gray-100 hover:text-blue-600"
-              onClick={() => setDropdownOpen(false)}
-            >
+              onClick={() => setDropdownOpen(false)}>
               FAQ
             </NavLink>
             <NavLink
               to="/pages/calculator"
               className="block px-4 py-2 hover:bg-gray-100 hover:text-blue-600"
-              onClick={() => setDropdownOpen(false)}
-            >
+              onClick={() => setDropdownOpen(false)}>
               Calculator
             </NavLink>
           </div>
         )}
       </div>
-
+      <NavLink className="mr-3" to="/service">
+        Service
+      </NavLink>
       <NavLink className="mr-3" to="/about">
         About
-      </NavLink>
-      <NavLink className="mr-3" to="/contact">
-        Contact
       </NavLink>
     </>
   );
   return (
-    <div className="sticky top-0 z-50 bg-white">
+    <div className="sticky top-0 z-50 bg-white px-32">
       <div className="navbar container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
@@ -85,8 +80,7 @@ const NavBar = () => {
                 className="h-5 w-5"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
+                stroke="currentColor">
                 {" "}
                 <path
                   strokeLinecap="round"
@@ -98,8 +92,7 @@ const NavBar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
-            >
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
               {links}
             </ul>
           </div>
