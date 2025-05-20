@@ -80,6 +80,7 @@ const Register = () => {
               className="input input-bordered w-full bg-white focus:outline-none focus:border-2 rounded-xl"
               value={form.email}
               onChange={handleChange}
+              defaultValue={"abc@gmail.com"}
               required
             />
             {errors.email && (
@@ -99,6 +100,7 @@ const Register = () => {
                 className="input input-bordered w-full bg-white pr-10 focus:outline-none focus:border-2 rounded-xl"
                 value={form.password}
                 onChange={handleChange}
+                defaultValue={123456}
                 required
               />
               <span

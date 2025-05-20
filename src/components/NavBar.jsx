@@ -3,6 +3,7 @@ import { NavLink } from "react-router";
 import { IoIosLogIn, IoMdArrowDropdown, IoMdArrowDropup } from "react-icons/io";
 import { FaCircleUser } from "react-icons/fa6";
 import { IoCarSportOutline } from "react-icons/io5";
+import { GoBell } from "react-icons/go";
 
 const NavBar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -112,6 +113,15 @@ const NavBar = () => {
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
         <div className="navbar-end">
+          <div
+            tabIndex={0}
+            role="button"
+            className="btn btn-ghost btn-circle mr-3">
+            <div className="indicator">
+              <GoBell className="w-5 h-5" />
+              <span className="badge badge-sm indicator-item">12</span>
+            </div>
+          </div>
           <NavLink
             className="btn border-2 border-blue-700 rounded-lg mr-4 hover:bg-blue-700 hover:text-white"
             to="/submitListing">

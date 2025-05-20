@@ -34,7 +34,7 @@ const Footer = () => {
                 placeholder="username@site.com"
                 className="input input-bordered join-item"
               />
-              <button className="btn bg-blue-700 text-white join-item">
+              <button className="btn bg-[#050b20] text-white join-item">
                 Contact Us
               </button>
             </div>

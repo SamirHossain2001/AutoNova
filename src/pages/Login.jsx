@@ -57,6 +57,7 @@ const Login = () => {
               className="input input-bordered w-full focus:outline-none focus:border-2 rounded-xl"
               value={form.email}
               onChange={handleChange}
+              defaultValue={"abc@gamil.com"}
               required
             />
             {errors.email && (
@@ -75,6 +76,7 @@ const Login = () => {
                 className="input input-bordered w-full pr-10 focus:outline-none focus:border-2 rounded-xl"
                 value={form.password}
                 onChange={handleChange}
+                defaultValue={123456}
                 required
               />
               <span

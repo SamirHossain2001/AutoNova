@@ -26,7 +26,7 @@ const DashBoard = () => {
       <div className="overflow-x-auto">
         <table className="min-w-full bg-white rounded-lg shadow">
           <thead>
-            <tr className="bg-blue-700 text-white text-left">
+            <tr className="bg-[#050b20] text-white text-left">
               <th className="py-3 px-4">Image</th>
               <th className="py-3 px-4">Name</th>
               <th className="py-3 px-4">Year</th>
