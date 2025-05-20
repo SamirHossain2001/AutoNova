@@ -1,7 +1,8 @@
 import { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router";
-import { IoIosLogIn, IoMdArrowDropdown } from "react-icons/io";
+import { IoIosLogIn, IoMdArrowDropdown, IoMdArrowDropup } from "react-icons/io";
 import { FaCircleUser } from "react-icons/fa6";
+import { IoCarSportOutline } from "react-icons/io5";
 
 const NavBar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -21,56 +22,65 @@ const NavBar = () => {
 
   const links = (
     <>
-      <NavLink className="mr-3 hover:text-blue-600" to="/">
+      <NavLink className="mr-3 hover:text-blue-700" to="/">
         Home
       </NavLink>
-      <NavLink className="mr-3 hover:text-blue-600" to="/listing">
+      <NavLink className="mr-3 hover:text-blue-700" to="/listing">
         Listing
       </NavLink>
-      <NavLink className="mr-3 hover:text-blue-600" to="/auction">
+      <NavLink className="mr-3 hover:text-blue-700" to="/auction">
         Auction
       </NavLink>
 
       {/* Clickable Dropdown */}
-      <div ref={dropdownRef} className="relative inline-block mr-3">
+      <div ref={dropdownRef} className="relative inline-block">
         <button
           onClick={() => setDropdownOpen((prev) => !prev)}
-          className="mr-3 flex items-center hover:text-blue-600">
-          Pages <IoMdArrowDropdown />
+          className="mr-3 flex items-center hover:text-blue-700">
+          Pages {dropdownOpen ? <IoMdArrowDropup /> : <IoMdArrowDropdown />}
         </button>
         {dropdownOpen && (
           <div className="absolute bg-white shadow-lg rounded z-10 mt-2 w-40">
             <NavLink
-              to="/pages/shop"
-              className="block px-4 py-2 hover:bg-gray-100 hover:text-blue-600"
+              to="/calculator"
+              className="block px-4 py-2 hover:bg-gray-100 hover:text-blue-700"
               onClick={() => setDropdownOpen(false)}>
-              Shop
+              Loan Calculator
             </NavLink>
             <NavLink
-              to="/pages/faq"
-              className="block px-4 py-2 hover:bg-gray-100 hover:text-blue-600"
+              to="/faq"
+              className="block px-4 py-2 hover:bg-gray-100 hover:text-blue-700"
               onClick={() => setDropdownOpen(false)}>
               FAQ
             </NavLink>
             <NavLink
-              to="/pages/calculator"
-              className="block px-4 py-2 hover:bg-gray-100 hover:text-blue-600"
+              to="/dashboard"
+              className="block px-4 py-2 hover:bg-gray-100 hover:text-blue-700"
               onClick={() => setDropdownOpen(false)}>
-              Calculator
+              DashBoard
+            </NavLink>
+            <NavLink
+              to="/track-vehicle"
+              className="block px-4 py-2 hover:bg-gray-100 hover:text-blue-700"
+              onClick={() => setDropdownOpen(false)}>
+              Track Vehicle
             </NavLink>
           </div>
         )}
       </div>
-      <NavLink className="mr-3" to="/service">
+      <NavLink className="mr-3 hover:text-blue-700" to="/service">
         Service
       </NavLink>
-      <NavLink className="mr-3" to="/about">
+      <NavLink className="mr-3 hover:text-blue-700" to="/about">
         About
+      </NavLink>
+      <NavLink className="mr-3 hover:text-blue-700" to="/contact-us">
+        Contact Us
       </NavLink>
     </>
   );
   return (
-    <div className="sticky top-0 z-50 bg-white px-32">
+    <div className="sticky top-0 z-50 bg-white px-32 py-4">
       <div className="navbar container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
@@ -96,16 +106,25 @@ const NavBar = () => {
               {links}
             </ul>
           </div>
-          <a className="text-2xl font-extrabold">AutoNova</a>
+          <a className="text-3xl font-extrabold">AutoNova</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
         <div className="navbar-end">
-          <NavLink className="btn mr-4" to="/login">
+          <NavLink
+            className="btn border-2 border-blue-700 rounded-lg mr-4 hover:bg-blue-700 hover:text-white"
+            to="/submitListing">
+            <IoCarSportOutline size={24} /> Submit Listing
+          </NavLink>
+          <NavLink
+            className="btn mr-4 rounded-lg hover:bg-[#050b20] hover:text-white"
+            to="/login">
             <IoIosLogIn size={24} /> Login
           </NavLink>
-          <NavLink className="btn" to="/register">
+          <NavLink
+            className="btn rounded-lg hover:bg-[#050b20] hover:text-white"
+            to="/register">
             <FaCircleUser size={24} /> Register
           </NavLink>
         </div>

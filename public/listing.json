@@ -1,0 +1,134 @@
+[
+  {
+    "id": "car001",
+    "name": "Audi A5 – 2023",
+    "shortDesc": "2.0 TFSI S line 5dr S Tronic Coupe",
+    "miles": 875,
+    "fuelType": "petrol",
+    "transmission": "automatic",
+    "price": 41950,
+    "image": "https://i.ibb.co/6R9cQGHF/car9-660x440.jpg",
+    "fullDescription": "The 2023 Audi A5 Coupe combines style and performance in a refined package. Featuring a 2.0L TFSI engine and Quattro all-wheel drive, it delivers responsive handling and a smooth ride. Inside, it offers leather seating, a virtual cockpit, and advanced safety features. Perfect for those seeking luxury with a sporty edge."
+  },
+  {
+    "id": "car002",
+    "name": "BMW X6 – 2023",
+    "shortDesc": "xDrive30d M Sport 5dr Auto",
+    "miles": 940,
+    "fuelType": "diesel",
+    "transmission": "automatic",
+    "price": 59995,
+    "image": "https://i.ibb.co/cX1mcbpG/car11-660x440.jpg",
+    "fullDescription": "The 2023 BMW X6 blends bold design with powerful diesel performance. Its xDrive all-wheel drive system ensures excellent road grip, while the M Sport package enhances visual appeal and dynamic driving. Equipped with a panoramic sunroof, adaptive LED headlights, and a luxurious interior, the X6 is a premium SUV for those who demand excellence."
+  },
+  {
+    "id": "car003",
+    "name": "Mercedes-Benz C-Class – 2023",
+    "shortDesc": "C300e AMG Line Premium 4dr 9G-Tronic",
+    "miles": 920,
+    "fuelType": "hybrid",
+    "transmission": "automatic",
+    "price": 47500,
+    "image": "https://i.ibb.co/LddsCH6q/car12-660x440.jpg",
+    "fullDescription": "The Mercedes-Benz C-Class C300e offers plug-in hybrid efficiency with AMG styling. Boasting a sleek exterior and luxurious interior, it includes a widescreen cockpit, heated seats, and intelligent navigation. With near-silent electric driving and brisk petrol-powered acceleration, it's a smart, stylish choice for the eco-conscious driver."
+  },
+  {
+    "id": "car005",
+    "name": "Volvo XC90 – 2023",
+    "shortDesc": "2.0 B5 Core AWD 5dr Auto",
+    "miles": 999,
+    "fuelType": "hybrid",
+    "transmission": "automatic",
+    "price": 62200,
+    "image": "https://i.ibb.co/5hQxpkMC/car14-660x440.jpg",
+    "fullDescription": "Volvo’s XC90 is a flagship hybrid SUV offering spacious luxury and modern safety. It comes with a B5 mild-hybrid system, seven seats, and features like Pilot Assist and a 9-inch portrait touchscreen. Designed for families who want power, safety, and Scandinavian sophistication in one package."
+  },
+  {
+    "id": "car006",
+    "name": "Toyota Corolla – 2023",
+    "shortDesc": "1.8 VVT-i Hybrid GR Sport 5dr CVT",
+    "miles": 760,
+    "fuelType": "hybrid",
+    "transmission": "CVT",
+    "price": 28995,
+    "image": "https://i.ibb.co/DDQByP20/car17-660x440.jpg",
+    "fullDescription": "The Toyota Corolla GR Sport combines hybrid efficiency with a sport-inspired look. With a responsive 1.8L engine and smooth CVT gearbox, it's perfect for city and highway driving alike. Featuring sporty accents, Apple CarPlay, and Toyota Safety Sense, it’s an ideal choice for modern drivers."
+  },
+  {
+    "id": "car007",
+    "name": "Nissan Qashqai – 2023",
+    "shortDesc": "1.3 DiG-T MH Tekna 5dr Manual",
+    "miles": 820,
+    "fuelType": "petrol",
+    "transmission": "manual",
+    "price": 28450,
+    "image": "https://i.ibb.co/8LPQrYdn/car19-660x440.jpg",
+    "fullDescription": "The Nissan Qashqai is a well-rounded compact SUV with smart hybrid support for fuel efficiency. The Tekna trim includes a 360-degree camera, ProPILOT Assist, and a Bose sound system. Its manual transmission ensures driving engagement, while modern styling keeps it fresh and practical."
+  },
+  {
+    "id": "car008",
+    "name": "Kia Sportage – 2023",
+    "shortDesc": "1.6 T-GDi HEV GT-Line 5dr Auto",
+    "miles": 850,
+    "fuelType": "hybrid",
+    "transmission": "automatic",
+    "price": 31400,
+    "image": "https://i.ibb.co/ymXrjMxP/car1-660x440.jpg",
+    "fullDescription": "Blending bold looks with hybrid performance, the 2023 Kia Sportage GT-Line offers an efficient yet powerful ride. With standout LED lighting, advanced infotainment, and spacious seating, this SUV is designed for families and individuals who value technology, comfort, and style in a hybrid package."
+  },
+  {
+    "id": "car009",
+    "name": "Hyundai Tucson – 2023",
+    "shortDesc": "1.6 T-GDi SE Connect 5dr 2WD",
+    "miles": 915,
+    "fuelType": "petrol",
+    "transmission": "manual",
+    "price": 27350,
+    "image": "https://i.ibb.co/r2BcBmqc/car3-660x440.jpg",
+    "fullDescription": "The Hyundai Tucson continues to impress with sharp styling and clever tech. The SE Connect trim includes an 8-inch touchscreen, lane keep assist, and adaptive cruise control. This 2WD model with a 6-speed manual gearbox delivers balanced performance and great value for money."
+  },
+  {
+    "id": "car010",
+    "name": "Peugeot 3008 – 2023",
+    "shortDesc": "1.6 Hybrid4 300 GT 5dr e-EAT8",
+    "miles": 980,
+    "fuelType": "hybrid",
+    "transmission": "automatic",
+    "price": 35890,
+    "image": "https://i.ibb.co/KpxWhFTx/car5-660x440.jpg",
+    "fullDescription": "Stylish and intelligent, the 2023 Peugeot 3008 GT Hybrid4 blends premium SUV design with plug-in hybrid capability. Featuring four-wheel drive, an 8-speed automatic gearbox, and Peugeot’s i-Cockpit interior, this vehicle is ideal for eco-conscious buyers who don’t want to sacrifice performance or design."
+  },
+  {
+    "id": "car011",
+    "name": "Skoda Octavia – 2023",
+    "shortDesc": "2.0 TDI SE L 5dr DSG",
+    "miles": 995,
+    "fuelType": "diesel",
+    "transmission": "automatic",
+    "price": 25600,
+    "image": "https://i.ibb.co/JjYVfpyf/car6-660x440.jpg",
+    "fullDescription": "Spacious and efficient, the Skoda Octavia SE L is built for practicality and comfort. With a refined diesel engine, DSG transmission, and a generous cabin, it’s ideal for long commutes or family journeys. Includes sat nav, adaptive cruise control, and advanced safety systems."
+  },
+  {
+    "id": "car012",
+    "name": "Ford Puma – 2023",
+    "shortDesc": "1.0 EcoBoost Hybrid mHEV ST-Line 5dr",
+    "miles": 880,
+    "fuelType": "hybrid",
+    "transmission": "manual",
+    "price": 24495,
+    "image": "https://i.ibb.co/VWr0y0k5/car8-660x440.jpg",
+    "fullDescription": "The 2023 Ford Puma is a compact crossover that offers sporty driving dynamics and hybrid efficiency. The ST-Line trim enhances looks and handling with unique styling and sport suspension. It’s fun to drive, surprisingly spacious, and packed with features like wireless charging and SYNC 3."
+  },
+  {
+    "id": "car004",
+    "name": "Range Rover Evoque – 2023",
+    "shortDesc": "2.0 D200 R-Dynamic SE 5dr Auto",
+    "miles": 890,
+    "fuelType": "diesel",
+    "transmission": "automatic",
+    "price": 53400,
+    "image": "https://i.ibb.co/Xx1L3nYX/car13-660x440.jpg",
+    "fullDescription": "A compact luxury SUV, the 2023 Range Rover Evoque offers cutting-edge design, superb off-road capabilities, and advanced tech. With a responsive diesel engine and a plush cabin featuring Meridian audio and dual touchscreen displays, the Evoque is built for both adventure and everyday elegance."
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "category": "Car Website",
+    "items": [
+      {
+        "question": "How do I search for a car?",
+        "answer": "Use the search bar at the top of the homepage to filter by brand, model, price, mileage, and more."
+      },
+      {
+        "question": "Can I compare cars?",
+        "answer": "Yes, you can select up to 3 cars and click 'Compare' to view specifications side by side."
+      },
+      {
+        "question": "Is registration required to view car details?",
+        "answer": "No, but you must register to contact sellers or save listings."
+      },
+      {
+        "question": "Are all listed cars inspected?",
+        "answer": "Yes, every vehicle listed goes through a basic inspection before being approved."
+      },
+      {
+        "question": "How frequently are listings updated?",
+        "answer": "Listings are updated in real-time as sellers add or remove vehicles."
+      }
+    ]
+  },
+  {
+    "category": "Payment",
+    "items": [
+      {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept credit/debit cards, bank transfers, and PayPal."
+      },
+      {
+        "question": "Is payment secure on your website?",
+        "answer": "Yes, we use SSL encryption and secure gateways for all transactions."
+      },
+      {
+        "question": "Can I pay in installments?",
+        "answer": "Yes, for eligible cars, installment plans are available during checkout."
+      },
+      {
+        "question": "Do you offer refunds?",
+        "answer": "Refunds are issued if a seller fails to deliver the car within 14 days."
+      },
+      {
+        "question": "Are there any hidden charges?",
+        "answer": "No, all charges including tax and service fees are disclosed upfront."
+      }
+    ]
+  },
+  {
+    "category": "Auction & Bidding",
+    "items": [
+      {
+        "question": "How do car auctions work?",
+        "answer": "You place bids on live auction cars. The highest bidder when time ends wins the car."
+      },
+      {
+        "question": "Is there a bidding fee?",
+        "answer": "A nominal platform fee applies only when you win the bid."
+      },
+      {
+        "question": "What happens if I win a bid?",
+        "answer": "You’ll receive an email with payment instructions and pickup/delivery details."
+      },
+      {
+        "question": "Can I cancel my bid?",
+        "answer": "Bids cannot be canceled once placed, so please bid responsibly."
+      },
+      {
+        "question": "How is bidding time managed?",
+        "answer": "Each auction has a countdown. Late bids extend the time by 2 minutes."
+      }
+    ]
+  },
+  {
+    "category": "Loan & Financing",
+    "items": [
+      {
+        "question": "Can I apply for a loan directly on the site?",
+        "answer": "Yes, fill out the loan form under 'Financing' and get instant quotes."
+      },
+      {
+        "question": "How is interest rate determined?",
+        "answer": "It depends on your credit score, loan term, and the vehicle’s value."
+      },
+      {
+        "question": "Is pre-approval available?",
+        "answer": "Yes, you can get pre-approved before choosing a vehicle."
+      },
+      {
+        "question": "Are there penalties for early repayment?",
+        "answer": "No, we do not charge penalties for early repayment."
+      },
+      {
+        "question": "Can I include insurance in my loan?",
+        "answer": "Yes, comprehensive insurance can be bundled with your loan."
+      }
+    ]
+  }
+]

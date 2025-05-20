@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Audi",
+    "image": "https://i.ibb.co/5gTxHd20/brand-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "BMW",
+    "image": "https://i.ibb.co/9kMwqS95/brand-2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Ford",
+    "image": "https://i.ibb.co/0y7dnMKt/brand-3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Mercedes Benz",
+    "image": "https://i.ibb.co/35vFXRkX/brand-4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Peugeot",
+    "image": "https://i.ibb.co/BKNP8RL6/brand-5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Volkswagen",
+    "image": "https://i.ibb.co/zHb8PgGt/brand-6.jpg"
+  }
+]

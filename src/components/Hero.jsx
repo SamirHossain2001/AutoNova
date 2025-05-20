@@ -27,12 +27,12 @@ const Hero = () => {
       </div>
 
       <div className="">
-        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-black rounded-t-2xl flex justify-center gap-4 p-5">
-          <div className="dropdown bg-black">
+        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-[#050b20] rounded-t-2xl flex justify-center gap-4 p-5">
+          <div className="dropdown bg-[#050b20]">
             <label
               tabIndex={0}
-              className="btn m-1 text-white border-r border-white bg-black hover:bg-gray-800 whitespace-nowrap">
-              <span className="mr-2">Used Cars</span>
+              className="btn m-1 text-white border-r border-white bg-[#050b20] hover:bg-white hover:text-black whitespace-nowrap">
+              <span className="mr-5">Used Cars</span>
               <IoMdArrowDropdown className="inline" />
             </label>
             <ul
@@ -46,11 +46,11 @@ const Hero = () => {
               </li>
             </ul>
           </div>
-          <div className="dropdown bg-black">
+          <div className="dropdown bg-[#050b20]">
             <label
               tabIndex={0}
-              className="btn m-1 text-white border-r border-white bg-black hover:bg-gray-800 whitespace-nowrap">
-              <span className="mr-2">Any Makes</span>
+              className="btn m-1 text-white border-r border-white bg-[#050b20] hover:bg-white hover:text-black whitespace-nowrap">
+              <span className="mr-5">Any Makes</span>
               <IoMdArrowDropdown className="inline" />
             </label>
             <ul
@@ -73,11 +73,11 @@ const Hero = () => {
               </li>
             </ul>
           </div>
-          <div className="dropdown bg-black">
+          <div className="dropdown bg-[#050b20]">
             <label
               tabIndex={0}
-              className="btn m-1 text-white border-r border-white bg-black hover:bg-gray-800 whitespace-nowrap">
-              <span className="mr-2">Any Model</span>
+              className="btn m-1 text-white border-r border-white bg-[#050b20] hover:bg-white hover:text-black whitespace-nowrap">
+              <span className="mr-5">Any Model</span>
               <IoMdArrowDropdown className="inline" />
             </label>
             <ul
@@ -100,11 +100,11 @@ const Hero = () => {
               </li>
             </ul>
           </div>
-          <div className="dropdown bg-black">
+          <div className="dropdown bg-[#050b20]">
             <label
               tabIndex={0}
-              className="btn m-1 text-white border-r border-white bg-black hover:bg-gray-800 whitespace-nowrap">
-              <span className="mr-2">Price: All prices</span>
+              className="btn m-1 text-white border-r border-white bg-[#050b20] hover:bg-white hover:text-black whitespace-nowrap">
+              <span className="mr-5">Price: All prices</span>
               <IoMdArrowDropdown className="inline" />
             </label>
             <ul
@@ -127,12 +127,12 @@ const Hero = () => {
               </li>
             </ul>
           </div>
-          <div className="dropdown bg-black">
+          <div className="dropdown bg-[#050b20]">
             <label
               tabIndex={0}
-              className="btn m-1 text-white border-r border-white bg-black hover:bg-gray-800 whitespace-nowrap">
-              <span className="mr-2">Search</span>
-              <FaMagnifyingGlass className="inline" />
+              className="btn m-1 text-white border-r border-white bg-[#050b20] hover:bg-white hover:text-black whitespace-nowrap">
+              <FaMagnifyingGlass className="inline mr-5" />
+              <span className="">Search</span>
             </label>
           </div>
         </div>
