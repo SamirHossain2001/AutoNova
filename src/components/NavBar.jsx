@@ -66,15 +66,21 @@ const NavBar = () => {
               onClick={() => setDropdownOpen(false)}>
               Track Vehicle
             </NavLink>
+            <NavLink
+              className="block px-4 py-2 hover:bg-gray-100 hover:text-blue-700"
+              to="/service"
+              onClick={() => setDropdownOpen(false)}>
+              Service
+            </NavLink>
+            <NavLink
+              className="block px-4 py-2 hover:bg-gray-100 hover:text-blue-700"
+              to="/about"
+              onClick={() => setDropdownOpen(false)}>
+              About
+            </NavLink>
           </div>
         )}
       </div>
-      <NavLink className="mr-3 hover:text-blue-700" to="/service">
-        Service
-      </NavLink>
-      <NavLink className="mr-3 hover:text-blue-700" to="/about">
-        About
-      </NavLink>
       <NavLink className="mr-3 hover:text-blue-700" to="/contact-us">
         Contact Us
       </NavLink>
